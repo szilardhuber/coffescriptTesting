@@ -1,0 +1,21 @@
+{
+  "name": "coffeescriptTesting",
+  "version": "1.0.0",
+  "description": "Sample code for blog post about CoffeeScript testing.",
+  "main": "mocha --compilers=coffee:coffee-script/register test/*.coffee",
+  "scripts": {
+    "test": "mocha --compilers=coffee:coffee-script/register test/*.coffee"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zmq": "^2.10.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "coffee-script": "^1.9.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.6.0"
+  }
+}
